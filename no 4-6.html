@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Web dengan Navigasi Dinamis</title>
+    <!-- Link ke file CSS eksternal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Bagian Header -->
+    <header>
+        <h1>Selamat Datang di Halaman Web Saya</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="loadContent('home')">Beranda</a></li>
+                <li><a href="#" onclick="loadContent('about')">Tentang</a></li>
+                <li><a href="#" onclick="loadContent('contact')">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Bagian Konten -->
+    <main id="mainContent">
+        <!-- Konten dinamis akan dimuat di sini -->
+        <section>
+            <h2>Selamat Datang di Beranda</h2>
+            <p>Ini adalah halaman beranda. Pilih menu di atas untuk berpindah halaman.</p>
+        </section>
+    </main>
+
+    <!-- Bagian Footer -->
+    <footer>
+        <p>&copy; 2045 Halaman Web Dinamis</p>
+    </footer>
+
+    <!-- Menambahkan file JavaScript eksternal -->
+    <script src="script.js"></script>
+</body>
+</html>
